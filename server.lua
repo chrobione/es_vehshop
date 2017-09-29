@@ -52,16 +52,14 @@ AddEventHandler('es:newPlayerLoaded', function(source, user)
 end)
 
 PerformHttpRequest("https://updates.fivem-scripts.org/verify/" .. GetCurrentResourceName(), function(err, rData, headers)
-	if err == 404 or err == 403 then
-		print("\nUPDATE ERROR: your version could not be verified\n")		
-	else
-		local vData = json.decode(rData)
-		for k,v in pairs(vData) do		
-		if v.version ~= version then
-			print("\n************************************************************************************************")
-			print("You are running an outdated version of " .. GetCurrentResourceName())
-			print("************************************************************************************************\n")
-		end
-		end
-	end
+  if err == 404 or err == 403 then
+    print("\nUPDATE ERROR: your version could not be verified\n")   
+  else
+    local vData = json.decode(rData)
+    if vData.version ~= version then
+      print("\n************************************************************************************************")
+      print("You are running an outdated version of " .. GetCurrentResourceName())
+      print("************************************************************************************************\n")
+    end
+  end
 end, "GET", "", {["Content-Type"] = 'application/json'})
