@@ -11,9 +11,17 @@ Buy your vehicle at Premium Deluxe Motorsport
 ## Installation
 1. Download and extract **es_vehshop**, then move the files to **resources/es_vehshop**.
 2. Add `start es_vehshop` to your server.cfg.
-3. Start your server.
+3. Start your FXServer.
 
+## Upgrade
+1. Remove the old files and copy the new files to your es_vehshop folder.
+2. Open the [CouchDB webinterface](http://127.0.0.1:5984).
+3. Remove your essentialmode & es_vehshop from CouchDB.
+4. Clear your cache files from your FXServer.
+5. Restart your FXServer
 
 ## Usage
 - Get inside Premium Deluxe Motorsport and buy your vehicle.
-- Press `INPUT_DROP_WEAPON ` (F9) when you want to respawn your vehicle.
+- Press `INPUT_DROP_WEAPON ` (F9) to respawn your vehicle.
+
+## License
