@@ -15,13 +15,17 @@ Buy your vehicle at Premium Deluxe Motorsport
 
 ## Upgrade
 1. Remove the old files and copy the new files to your es_vehshop folder.
-2. Open the [CouchDB webinterface](http://127.0.0.1:5984).
+2. Open the [CouchDB web interface](http://127.0.0.1:5984/_utils/).
 3. Remove your essentialmode & es_vehshop from CouchDB.
 4. Clear your cache files from your FXServer.
 5. Restart your FXServer
+
+## Configuration
+You can change the vehicle prices in the `vehicles.lua` file.
 
 ## Usage
 - Get inside Premium Deluxe Motorsport and buy your vehicle.
 - Press `INPUT_DROP_WEAPON ` (F9) to respawn your vehicle.
 
 ## License
+This resource is released under the [GNU GPLv3 license](#LICENSE).
