@@ -245,8 +245,7 @@ end)
 RegisterNetEvent('FinishMoneyCheckForVeh')
 AddEventHandler('FinishMoneyCheckForVeh', function(moneyCheck)
   if moneyCheck == true then  
-        local playerPed = GetPlayerPed(-1)z
-
+        local playerPed = GetPlayerPed(-1)
         local veh = GetVehiclePedIsUsing(playerPed)
         local model = GetEntityModel(veh)
         local colors = table.pack(GetVehicleColours(veh))
