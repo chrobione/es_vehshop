@@ -3,10 +3,11 @@
 <a href="https://discord.gg/Cgr5FU6" title="Chat on Discord"><img alt="Discord Status" src="https://discordapp.com/api/guilds/285462938691567627/widget.png"></a>
 
 Buy your vehicle at Premium Deluxe Motorsport
+## Do not use this resource when you are running fs_freemode.
+fs_freemode has his own vehicle shop, so if you use this one it will cause conflicts..
 
 ## Requirements
 - [EssentialMode](http://essentialmode.com)
-- [fs_freemode](https://github.com/FiveM-Scripts/fs_freemode)
 
 ## Installation
 1. Download and extract **es_vehshop**, then move the files to **resources/es_vehshop**.
