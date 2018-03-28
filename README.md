@@ -2,7 +2,6 @@ This is the begining of a fork for this project. If you want to stay with orgina
 
 # es_vehshop
 Original Version: [![Version](https://img.shields.io/badge/Version-1.1-brightgreen.svg)](https://github.com/FiveM-Scripts/es_vehshop)
-<a href="https://discord.gg/Cgr5FU6" title="Chat on Discord"><img alt="Discord Status" src="https://discordapp.com/api/guilds/285462938691567627/widget.png"></a>
 
 Buy your vehicle at Premium Deluxe Motorsport
 ## Do not use this resource when you are running fs_freemode.
